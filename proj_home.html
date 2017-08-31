@@ -1,0 +1,245 @@
+<html>
+<head>
+<style type="text/css">
+
+div.topbar{
+	width:auto;
+	height:40px;
+	margin: auto;
+	}
+li.topbar{
+	float:right;
+}
+
+.whitesmoke{
+	background-color: #F5F5F5;
+	}
+
+#Newshead{
+	background-color: #F5F5F5;
+	height:50px;
+	padding-top= 20px;
+	width:auto;
+	text-align:center;
+	z-index=-1;
+	position:relative;
+	}
+
+#NewsHeading{
+	color:black;
+	font-size:200%;
+	font-weight: bold;
+	font-family: Times New Roman;
+}
+
+ul 
+{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	}
+
+.left{
+	float:left;
+	}
+
+	.search{
+	float: right;
+	border: 10px solid #DCDCDC;
+	}
+li a{
+	display:block;
+	color:black;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover:not(.active) {
+	background-color: 	#F0F8FF;
+}
+
+a:link{
+	color:black;
+	}
+	
+a:visited
+{
+	color:black;
+	}
+a:hover{
+	color:green;
+	}
+a:active{
+	color:blue;
+	}
+
+ .black{
+	background-color: 	#DCDCDC;
+}
+
+
+nav.vertical ul{
+	list-style-type:circle;
+	margin:0;
+	padding-top:20px;
+	width:25%;
+	background-color:black;
+	position:relative;
+	height:300%;
+	overflow:auto;
+	position: absolute;
+}
+nav.vertical li a{
+	color:#ffffff;
+	padding:8px 16px;
+}
+
+body{
+	background-color:#F8F8FF;
+	padding:0px;
+	margin:0px;
+	}
+
+div.gallery {
+    margin-left: 200px;
+	margin-top: 20px;
+    border: 1px solid #ccc;
+     width: 180px;
+	 float: left;
+	 overflow: auto;
+	 
+	
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: 100px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+	
+ .hori_line {
+	clear: both;
+	display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+
+}
+
+ .trending{
+ clear: both;
+ margin-top:60px;
+ margin-left: 200px;
+ display: inline-block;}
+ 
+ .latestnews{
+ clear: both;
+ margin-left: 200px;
+ display: inline-block;
+ }
+	
+</style>
+</head>
+
+
+<body>
+<div class="topbar">
+  <ul class="whitesmoke">
+    <li class="topbar"><a href="#">Support</a></li>
+	<li class="topbar"><a href="proj_feedback.html">Feedback</a></li>
+	<li class="topbar"><a href="proj_storysubmit.html">Submit a Story</a></li>
+	<li class="topbar"><a href="proj_about.html" target="_blank">About</a></li>
+	<li class="topbar"><a href="proj_home.html">Home</a></li>
+  </ul>
+</div>
+<div id="Newshead"><span id="NewsHeading">24 HOURS</span></div>
+
+<div>
+<ul class="black">
+<li class="left"><a href="#city">City</a></li>
+<li class="left"><a href="#india">India</a></li>
+<li class="left"><a href="#business">Business</a></li>
+<li class="left"><a href="#political">Political</a></li>
+<li class="left"><a href="#sports">Sports</a></li>
+<li class="left"><a href="#lifestyle">Lifestyle</a></li>
+<li class="search"><input type="text" value="search" name="searchbox"> </input></li>
+</ul></div>
+
+<nav class="vertical">
+<ul style="width:175px">
+<li><a href="#home">Trending</a></li><br>
+<li><a href="#home">Today's News</a></li><br>
+<li><a href="#home">Last Week</a></li><br>
+<li ><a href="#home">Last Month</a></li><br>
+<li ><a href="#home">July 2017</a></li><br>
+<li ><a href="#home">June 2017</a></li><br>
+</ul></nav>
+
+<div class="latestnews"> 
+<p> Latest News </p>
+</div>
+<div>
+<div class="gallery">
+  <a target="_blank" href="proj_newspage2.html">
+   <img src="ieee101.jpeg" alt="Sensor" style="width:180px;height:200px;"> 
+  </a>
+  <div class="desc"> Current Struggles of people in Mumbai</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="#forest.jpg">
+    <img src="DL.jpeg" alt="Sensor" style="width:180px;height:200px;">
+  </a>
+  <div class="desc">Donald Trump does it again</div>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="proj_newspage.html">
+    <img src="sensor.jpeg" alt="Sensor" style="width:180px;height:200px;">
+  </a>
+  <div class="desc">Cabinet Minister dies tragic death</div>
+</div>
+</div>
+<br><br>
+
+
+
+<div>
+<p class="trending"> Trending Right Now! </p>
+</div>
+
+<div>
+<div class="gallery">
+  <a target="_self" href="proj_newspage.html">
+    <img src= "ieee101.jpeg" alt="Sensor" style="width:180px;height:200px;">
+  </a>
+  <div class="desc"> Current Struggles of people in Mumbai</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="#forest.jpg">
+    <img src="sensor.jpeg" alt="Sensor" style="width:180px;height:200px;">
+  </a>
+  <div class="desc">Donald Trump does it again</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="#forest.jpg">
+    <img src="DL.jpeg" alt="Sensor" style="width:180px;height:200px;">
+  </a>
+  <div class="desc">Cabinet Minister dies tragic death</div>
+</div>
+</div>
+
+</body>
+</html>
